@@ -16,6 +16,6 @@
   },
   "require": {
     "php": ">=7.4",
-    "axtiva/flexible-graphql-php": "^0.1"
+    "axtiva/flexible-graphql-php": "^0.2"
   }
 }
