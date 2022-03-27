@@ -49,7 +49,7 @@ class _ServiceResolverGenerator implements FieldResolverGeneratorInterface
             return file_get_contents($filename);
         }
 
-        $loader = new FilesystemLoader(__DIR__ . '/../../../../../templates');
+        $loader = new FilesystemLoader(__DIR__ . '/../../../../../templates/' . $this->config->getPHPVersion());
         $twig = new Environment($loader);
 
         return $twig->render('Model/_ServiceResolver.php.twig', [
