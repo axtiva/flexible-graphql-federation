@@ -54,7 +54,7 @@ class FederationRepresentationResolverGenerator implements FederationRepresentat
             return file_get_contents($filename);
         }
 
-        $loader = new FilesystemLoader(__DIR__ . '/../../../../../templates');
+        $loader = new FilesystemLoader(__DIR__ . '/../../../../../templates/' . $this->config->getPHPVersion());
         $twig = new Environment($loader);
 
         return $twig->render('Model/RepresentationResolver.php.twig', [
