@@ -21,8 +21,8 @@
   },
   "require": {
     "php": "^7.4 | ^8.0",
-    "axtiva/flexible-graphql-php": "^1.0.1",
-    "axtiva/graphql-federation-extension": "^1.0"
+    "axtiva/flexible-graphql-php": "^1.0.2",
+    "axtiva/graphql-federation-extension": "^1.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
